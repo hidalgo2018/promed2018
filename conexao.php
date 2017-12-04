@@ -25,5 +25,5 @@ $banco = "promed";
 $conexao = mysqli_connect($servidor, $usuario, $senha, $banco);
 
 if (!($conexao)){
-    echo mysqli_error() . "Erro ao acessar o banco de dados ";
+    echo  "Erro ao acessar o banco de dados ".mysqli_error($conexao) ;
 }
