@@ -15,7 +15,7 @@ if(isset($_POST['enviar'])){
 
     $deviceID = 68449;
     $number = "'55".$fone."'";
-    $message = "'".$mensagem."'";
+    $message = $mensagem;
 
 //Please note options is no required and can be left out
     $result = $smsGateway->sendMessageToNumber($number, $message, $deviceID);
