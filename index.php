@@ -26,7 +26,11 @@ require_once 'conexao.php';
 
 <script src="js/jquery.js"></script>
 <script src="js/what-input.js"></script>
+<script src="js;jquery.mask.js"></script>
 <script src="js/materialize.min.js"></script>
-
+<script>
+    $(".button-collapse").sideNav();
+    $('.ddd_fone').mask('(00) 0000-0000');
+</script>
 </body>
 </html>
