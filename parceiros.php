@@ -5,40 +5,41 @@
  * Date: 01/12/2017
  * Time: 15:54
  */
-$numreg = 13;
+$numreg = 18;
+$col = 1;
+$linha = 0;
 $numlinhas = $numreg % 4;
 if ($numlinhas == 0){
     $numlinhas = $numreg / 4;
 }
 else{
-
-    $numlinhas = (int) ($numreg / 4) +1;
+    $numlinhas = (int) ($numreg / 4);
 }
-echo $numlinhas;
 
 ?>
+<div class="container">
+<div class="container">
+    <div class="row">
+
+        <div class="col s12 m12 l12">
+            <h3 class="red-text">.:: Parceiros ::.</h3>
+            <div class="divider"></div>
+        </div>
+    </div>
+</div>
    <div class="row">
     </div>
-    <div class="row">
-        <div class="col s12 m6 l2"></div>
-        <div class="col s12 m6 l8">
-            <div class="col s12 m12 l12"><h4>Parceiros</h4>
-                <div class="divider"></div>
-            </div>
-        </div>
-        <div class="col s12 m6 l2"></div>
-    </div>
+
 
     <div class="container">
-        <?php for ($linha = 1; $linha <= $numlinhas; $linha++){
+<?php
+        while($linha <= $numlinhas){
 ?>
         <div class="row">
 
-<?php            for ($coluna = 0;
-            $coluna <= 3;
-            $coluna++) {
-            ?>
-
+<?php
+            while ($col <= $numreg){
+?>
             <div class="col s12 m6 l3">
                 <div class="card">
                     <div class="card-image">
@@ -61,6 +62,15 @@ echo $numlinhas;
 
 
             </div>
-<?php } ?>
+<?php
+            $col++;
+
+            }
+                        ?>
          </div>
-        <?php } ?>
+<?php
+
+        $linha++;
+        }?>
+    </div>
+</div>

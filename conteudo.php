@@ -42,6 +42,6 @@
     }
 
 ?>
-    <div class="container" style="min-height: 800px;">
+    <div class="container" style="min-height: 300px;">
 
     </div>

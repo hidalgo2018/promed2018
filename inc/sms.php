@@ -6,11 +6,12 @@
  * Time: 21:45
  */
 include "smsGateway.php";
-
+$add = "'sms@hidalgojunior.com.br'";
+$pwd = "'jr34139251'";
 function enviar_sms($num, $msg)
 {
 //Enviando Mensagens
-    $smsGateway = new SmsGateway('demo@smsgateway.me', 'password');
+    $smsGateway = new SmsGateway($add,$pwd);
 
 
     $deviceID = 68449;

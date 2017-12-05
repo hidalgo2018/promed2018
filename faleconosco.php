@@ -38,12 +38,17 @@ if(isset($_POST['enviar'])){
 ?>
 
 
-
-
 <div class="container">
     <div class="row">
-        <h3><strong>Fale Conosco</strong></h3>
+        <div class="col s2 m2 l2"></div>
+        <div class="col s8 m8 l8">
+            <h3 class="red-text">.:: Fale Conosco ::.</h3>
+            <div class="divider"></div>
+        </div>
     </div>
+</div>
+
+<div class="container">
     <div class="row">
         <div class="col s3"></div>
         <div class="col s6">

@@ -11,7 +11,7 @@
 <div class="container">
     <div class="row">
         <div class="col s3"></div>
-        <div class="col s6 teal z-depth-3"><p class="flow-text">Acesso Restrito</p> </div>
+        <div class="col s6 teal z-depth-3"><p class="flow-text" style="padding-left: 20px"><strong>ACESSO RESTRITO</strong></p> </div>
         <div class="col s3">
         </div>
     </div>
