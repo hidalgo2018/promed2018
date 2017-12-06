@@ -35,6 +35,14 @@ if(isset($_POST['enviar'])){
 
     }
 }
+
+
+/*
+a - Represents an alpha character (A-Z,a-z)
+9 - Represents a numeric character (0-9)
+* - Represents an alphanumeric character (A-Z,a-z,0-9)
+ *
+ */
 ?>
 
 
@@ -59,7 +67,7 @@ if(isset($_POST['enviar'])){
                         <label for="input_text">Nome Completo:</label>
                     </div>
                     <div class="input-field col s12">
-                        <input type="tel" id="fone" name="fone" data-mask="(00) 00000-0000" data-mask-selectonfocus="true" />
+                        <input type="tel" id="fone" name="fone" data-mask-selectonfocus="true" />
                         <label for="fone">Telefone: </label>
                     </div>
                     <div class="input-field col s12">

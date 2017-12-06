@@ -26,11 +26,16 @@ require_once 'conexao.php';
 
 <script src="js/jquery.js"></script>
 <script src="js/what-input.js"></script>
-<script src="js;jquery.mask.js"></script>
+<script src="js/jquery.maskedinput.js"></script>
 <script src="js/materialize.min.js"></script>
 <script>
     $(".button-collapse").sideNav();
-    $('.ddd_fone').mask('(00) 0000-0000');
+    jQuery(function($){
+        $("#date").mask("99/99/9999",{placeholder:"mm/dd/yyyy"});
+        $("#fone").mask("(99) 99999-9999");
+        $("#tin").mask("99-9999999");
+        $("#ssn").mask("999-99-9999");
+    });
 </script>
 </body>
 </html>
