@@ -115,10 +115,34 @@
                     <option value="MA">MA - Maranhão</option>
                     <option value="MS">MS - Mato Grosso do Sul</option>
                     <option value="MT">MT - Mato Grosso</option>
+                    <option value="PA">PA - Pará</option>
+                    <option value="PB">PB - Paraiba</option>
+                    <option value="PE">PE - Pernambuco</option>
+                    <option value="PI">PI - Piaui</option>
+                    <option value="PR">PR - Paraná</option>
                     <option value="RJ">RJ - Rio de Janeiro</option>
+                    <option value="RN">RN - Rio Grande do Norte</option>
+                    <option value="RS">RS - Rio Grande do Sul</option>
+                    <option value="RO">RO - Rondônia</option>
+                    <option value="RR">RR - Roraima</option>
+                    <option value="SC">SC - Santa Catarina</option>
+                    <option value="SE">SE - Sergipe</option>
                     <option value="SP">SP - São Paulo</option>
+                    <option value="TO">TO - Tocantins</option>
                 </select>
                 <label for="uf">UF</label>
+            </div>
+            <div class="row">
+                <div class="col s6 m6 l6">
+                    <button class="btn waves-effect waves-light" type="submit" name="enviar">Enviar
+                        <i class="material-icons right">send</i>
+                    </button>
+
+                </div>
+                <div class="col s6 m6 l6">
+                    <button class="btn waves-effect waves-light" type="reset" name="limpar">Limpar
+                        <i class="material-icons right">clear</i>
+                    </button>                </div>
             </div>
         </div>
     </form>

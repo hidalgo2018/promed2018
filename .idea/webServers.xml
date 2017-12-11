@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="47466637-8c42-4b29-89b1-633d41e26c17" name="promed" url="http://promed.hidalgojunior.com.br">
+        <fileTransfer host="ip-45-56-68-34.configrapp.com" port="22" rootFolder="/home/promed" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
