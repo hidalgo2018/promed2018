@@ -11,5 +11,15 @@
       <user-name>root</user-name>
       <introspection-schemas>*:promed</introspection-schemas>
     </data-source>
+    <data-source name="promed@ip-45-56-68-34.configrapp.com" uuid="acaaceb2-7842-4318-9746-576b4028cb35">
+      <database-info product="MySQL" version="5.5.58-0ubuntu0.14.04.1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.44 ( Revision: b3cda4f864902ffdde495b9df93937c3e20009be )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>hidalgo</user-name>
+      <introspection-schemas>*:promed</introspection-schemas>
+    </data-source>
   </component>
 </project>
