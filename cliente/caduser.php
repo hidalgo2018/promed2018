@@ -115,6 +115,8 @@
                     <option value="MA">MA - Maranhão</option>
                     <option value="MS">MS - Mato Grosso do Sul</option>
                     <option value="MT">MT - Mato Grosso</option>
+                    <option value="RJ">RJ - Rio de Janeiro</option>
+                    <option value="SP">SP - São Paulo</option>
                 </select>
                 <label for="uf">UF</label>
             </div>

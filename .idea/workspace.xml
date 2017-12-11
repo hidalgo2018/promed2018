@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeaadcda-477a-4e3b-bde2-f090213c09a5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/cliente/caduser.php" afterPath="$PROJECT_DIR$/cliente/caduser.php" />
-      <change beforePath="$PROJECT_DIR$/conexao.php" afterPath="$PROJECT_DIR$/conexao.php" />
-      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -43,8 +39,8 @@
       <file leaf-file-name="caduser.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cliente/caduser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="773">
-              <caret line="116" column="55" lean-forward="false" selection-start-line="116" selection-start-column="55" selection-end-line="116" selection-end-column="55" />
+            <state relative-caret-position="807">
+              <caret line="118" column="53" lean-forward="false" selection-start-line="118" selection-start-column="53" selection-end-line="118" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -161,8 +157,8 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/acaaceb2-7842-4318-9746-576b4028cb35/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/acaaceb2-7842-4318-9746-576b4028cb35/console_1.sql" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/cliente/caduser.php" />
         <option value="$PROJECT_DIR$/conexao.php" />
+        <option value="$PROJECT_DIR$/cliente/caduser.php" />
       </list>
     </option>
   </component>
@@ -293,7 +289,7 @@
       <workItem from="1512407913209" duration="9561000" />
       <workItem from="1512432539432" duration="3813000" />
       <workItem from="1512529120250" duration="3960000" />
-      <workItem from="1513010153748" duration="3018000" />
+      <workItem from="1513010153748" duration="3136000" />
     </task>
     <task id="LOCAL-00001" summary="Versão melhorada do ProMed - V.1.1">
       <created>1512417839440</created>
@@ -344,11 +340,18 @@
       <option name="project" value="LOCAL" />
       <updated>1512530041387</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Alteração no cadastro de Usuários.">
+      <created>1513013198394</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1513013198394</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48320000" />
+    <option name="totallyTimeSpent" value="48438000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,7 +427,8 @@
     <MESSAGE value="Correção do API de SMS" />
     <MESSAGE value="Melhorias no Projeto - Correções de layout" />
     <MESSAGE value="Acertos com a máscara de entrada." />
-    <option name="LAST_COMMIT_MESSAGE" value="Acertos com a máscara de entrada." />
+    <MESSAGE value="Alteração no cadastro de Usuários." />
+    <option name="LAST_COMMIT_MESSAGE" value="Alteração no cadastro de Usuários." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -814,8 +818,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cliente/caduser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="773">
-          <caret line="116" column="55" lean-forward="false" selection-start-line="116" selection-start-column="55" selection-end-line="116" selection-end-column="55" />
+        <state relative-caret-position="807">
+          <caret line="118" column="53" lean-forward="false" selection-start-line="118" selection-start-column="53" selection-end-line="118" selection-end-column="53" />
           <folding />
         </state>
       </provider>
