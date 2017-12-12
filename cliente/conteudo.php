@@ -17,10 +17,34 @@
                 break;
             case 20:
                 $_SESSION['cod_pag'] = 20;
-                (file_exists('sobre.php')? include "sobre.php" :include "erro.php");
+                (file_exists('caduser.php')? include "caduser.php" :include "erro.php");
                 break;
             case 30:
                 $_SESSION['cod_pag'] = 30;
+                (file_exists('parceiros.php')? include "parceiros.php" :include "erro.php");
+                break;
+            case 30:
+                $_SESSION['cod_pag'] = 40;
+                (file_exists('parceiros.php')? include "parceiros.php" :include "erro.php");
+                break;
+            case 30:
+                $_SESSION['cod_pag'] = 50;
+                (file_exists('parceiros.php')? include "parceiros.php" :include "erro.php");
+                break;
+            case 30:
+                $_SESSION['cod_pag'] = 60;
+                (file_exists('parceiros.php')? include "parceiros.php" :include "erro.php");
+                break;
+            case 30:
+                $_SESSION['cod_pag'] = 70;
+                (file_exists('parceiros.php')? include "parceiros.php" :include "erro.php");
+                break;
+            case 30:
+                $_SESSION['cod_pag'] = 80;
+                (file_exists('parceiros.php')? include "parceiros.php" :include "erro.php");
+                break;
+            case 30:
+                $_SESSION['cod_pag'] = 120;
                 (file_exists('parceiros.php')? include "parceiros.php" :include "erro.php");
                 break;
             case 90:
@@ -35,10 +59,6 @@
                 $_SESSION['cod_pag'] = 100;
                 (file_exists('cliente/login.php')? include "cliente/login.php" :include "erro.php");
                 break;
-            case 999:{
-                session_destroy();
-                (file_exists('home.php')? include "home.php" :include "erro.php");
-            }
         }
     }
     else{

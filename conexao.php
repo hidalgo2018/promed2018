@@ -8,7 +8,6 @@
 
 
 /* Acesso Local*/
-/*
 $servidor = "localhost";
 $usuario = "root";
 $senha = "";
@@ -16,14 +15,15 @@ $banco = "promed";
 
 
 
- * Acesso OnLine
-*/
+ // Acesso OnLine
+/*
 $servidor = "localhost";
 $usuario = "hidalgo";
 $senha = "@Rna7d0sQm";
 $banco = "promed";
-
+*/
 $conexao = mysqli_connect($servidor, $usuario, $senha, $banco);
+
 
 if (!($conexao)){
     echo  "Erro ao acessar o banco de dados ".mysqli_error($conexao) ;

@@ -1,6 +1,17 @@
 <?php
+include '../conexao.php';
 session_start();
-require_once 'conexao.php';
+if($_SESSION['nivel']==0){
+
+}
+else
+{
+    if ($_SESSION['nivel'] == 1){
+
+    }
+}
+//
+
 ?>
 
 <!doctype html>
@@ -11,7 +22,7 @@ require_once 'conexao.php';
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>ProMed Saúde Ocupacional</title>
-    <link rel="stylesheet" href="css/materialize.css" />
+    <link rel="stylesheet" href="../css/materialize.css" />
     <script type="text/javascript" language="javascript">
         function validar() {
             var nome = usuario.nome.value;
@@ -39,7 +50,6 @@ require_once 'conexao.php';
 <body>
 
 <?php
-    include 'conexao.php';
     include 'menu.php';
     include 'conteudo.php';
     include 'rodape.php';
@@ -47,10 +57,10 @@ require_once 'conexao.php';
 ?>
 
 
-<script src="js/jquery.js"></script>
-<script src="js/what-input.js"></script>
-<script src="js/jquery.maskedinput.js"></script>
-<script src="js/materialize.min.js"></script>
+<script src="../js/jquery.js"></script>
+<script src="../js/what-input.js"></script>
+<script src="../js/jquery.maskedinput.js"></script>
+<script src="../js/materialize.min.js"></script>
 <script>
     $(".button-collapse").sideNav();
     jQuery(function($){
