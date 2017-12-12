@@ -2,23 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aeaadcda-477a-4e3b-bde2-f090213c09a5" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/cliente/conteudo.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cliente/erro.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cliente/home.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cliente/index.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cliente/menu.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/cliente/rodape.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sessao.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/sobre.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/0bb8ff14-ffdb-4535-ad3e-a9db74a22943.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/0bb8ff14-ffdb-4535-ad3e-a9db74a22943.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/cliente/caduser.php" afterPath="$PROJECT_DIR$/cliente/caduser.php" />
-      <change beforePath="$PROJECT_DIR$/cliente/login.php" afterPath="$PROJECT_DIR$/cliente/login.php" />
-      <change beforePath="$PROJECT_DIR$/conexao.php" afterPath="$PROJECT_DIR$/conexao.php" />
-      <change beforePath="$PROJECT_DIR$/conteudo.php" afterPath="$PROJECT_DIR$/conteudo.php" />
-      <change beforePath="$PROJECT_DIR$/empresa.php" afterPath="$PROJECT_DIR$/empresa.php" />
+      <change beforePath="$PROJECT_DIR$/cliente/index.php" afterPath="$PROJECT_DIR$/cliente/index.php" />
+      <change beforePath="$PROJECT_DIR$/cliente/rodape.php" afterPath="$PROJECT_DIR$/cliente/rodape.php" />
+      <change beforePath="$PROJECT_DIR$/conexao.php" afterPath="$PROJECT_DIR$/inc/conexao.php" />
       <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change beforePath="$PROJECT_DIR$/sessao.php" afterPath="$PROJECT_DIR$/sessao.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,6 +40,13 @@
         <item name="promed@ip-45-56-68-34.configrapp.com" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="promed: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="promed@ip-45-56-68-34.configrapp.com" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="promed: schema" type="c314c289:MysqlImplModel$Schema" />
+        <item name="paginas: table" type="98d5ac3d:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -88,7 +84,28 @@
     <favorites_list name="promed" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cliente/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -122,17 +139,13 @@
         <option value="$PROJECT_DIR$/js/jquery.maskedinput.js" />
         <option value="$PROJECT_DIR$/faleconosco.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/acaaceb2-7842-4318-9746-576b4028cb35/console_1.sql" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0bb8ff14-ffdb-4535-ad3e-a9db74a22943/console.sql" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/acaaceb2-7842-4318-9746-576b4028cb35/console_2.sql" />
         <option value="$PROJECT_DIR$/conexao.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/acaaceb2-7842-4318-9746-576b4028cb35/console.sql" />
         <option value="$PROJECT_DIR$/sobre.php" />
         <option value="$PROJECT_DIR$/empresa.php" />
-        <option value="$PROJECT_DIR$/sessao.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0bb8ff14-ffdb-4535-ad3e-a9db74a22943/console_1.sql" />
-        <option value="$PROJECT_DIR$/cliente/index.php" />
-        <option value="$PROJECT_DIR$/cliente/rodape.php" />
         <option value="$PROJECT_DIR$/cliente/menu.php" />
         <option value="$PROJECT_DIR$/cliente/login.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0bb8ff14-ffdb-4535-ad3e-a9db74a22943/console_2.sql" />
@@ -141,6 +154,10 @@
         <option value="$PROJECT_DIR$/cliente/conteudo.php" />
         <option value="$PROJECT_DIR$/cliente/caduser.php" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0bb8ff14-ffdb-4535-ad3e-a9db74a22943/console_3.sql" />
+        <option value="$PROJECT_DIR$/cliente/rodape.php" />
+        <option value="$PROJECT_DIR$/sessao.php" />
+        <option value="$PROJECT_DIR$/cliente/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -194,6 +211,11 @@
               <item name="promed" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="cliente" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="promed" type="b2602c69:ProjectViewProjectNode" />
+              <item name="promed" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="inc" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -219,6 +241,7 @@
       <recent name="D:\laragon\www\promed" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\laragon\www\promed\inc" />
       <recent name="D:\laragon\www\promed\cliente" />
       <recent name="D:\laragon\www\promed\imgs" />
     </key>
@@ -241,6 +264,13 @@
       <option name="workingDirectory" value="D:\laragon\www\promed" />
     </configuration>
     <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="Configr" />
+  </component>
+  <component name="SQLScriptSettings">
+    <option name="matrix">
+      <map>
+        <entry key="MYSQL.CreateComplete" value="CreateIfNotExists=1" />
+      </map>
+    </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -268,7 +298,7 @@
       <workItem from="1512432539432" duration="3813000" />
       <workItem from="1512529120250" duration="3960000" />
       <workItem from="1513010153748" duration="8900000" />
-      <workItem from="1513038936646" duration="10853000" />
+      <workItem from="1513038936646" duration="14929000" />
     </task>
     <task id="LOCAL-00001" summary="Versão melhorada do ProMed - V.1.1">
       <created>1512417839440</created>
@@ -340,11 +370,18 @@
       <option name="project" value="LOCAL" />
       <updated>1513017615535</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Continuando alterações acesso e cadastro de usuários.">
+      <created>1513079439850</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1513079439850</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65055000" />
+    <option name="totallyTimeSpent" value="69131000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -357,6 +394,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -366,7 +404,7 @@
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2750533" sideWeight="0.49565217" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="SQL Generator" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SQL Generator" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -424,7 +462,8 @@
     <MESSAGE value="Acertos com a máscara de entrada." />
     <MESSAGE value="Alteração no cadastro de Usuários." />
     <MESSAGE value="Formulário de Cadastro de Usuários pronto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formulário de Cadastro de Usuários pronto" />
+    <MESSAGE value="Continuando alterações acesso e cadastro de usuários." />
+    <option name="LAST_COMMIT_MESSAGE" value="Continuando alterações acesso e cadastro de usuários." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -438,7 +477,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conexao.php">
+    <entry file="file://$PROJECT_DIR$/inc/conexao.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
@@ -528,7 +567,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conexao.php">
+    <entry file="file://$PROJECT_DIR$/inc/conexao.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
@@ -574,7 +613,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conexao.php">
+    <entry file="file://$PROJECT_DIR$/inc/conexao.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
@@ -691,7 +730,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conexao.php">
+    <entry file="file://$PROJECT_DIR$/inc/conexao.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="23" column="2" lean-forward="false" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
@@ -711,45 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="23" lean-forward="false" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cliente/rodape.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="33" column="103" lean-forward="false" selection-start-line="33" selection-start-column="103" selection-end-line="33" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cliente/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="52" column="0" lean-forward="false" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding>
-            <marker date="1513072113278" expanded="true" signature="171:860" ph="..." />
-            <marker date="1513072113278" expanded="true" signature="178:860" ph="..." />
-            <marker date="1513072113278" expanded="true" signature="595:860" ph="..." />
-            <marker date="1513072113278" expanded="true" signature="1529:1928" ph="..." />
-            <marker date="1513072113278" expanded="true" signature="1590:1821" ph="{...}" />
-            <marker date="1513072113278" expanded="true" signature="1849:1928" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sessao.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -785,14 +785,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="39" column="71" lean-forward="false" selection-start-line="39" selection-start-column="71" selection-end-line="39" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cliente/menu.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -838,10 +830,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cliente/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="27" column="53" lean-forward="false" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cliente/conteudo.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="19" column="61" lean-forward="false" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cliente/rodape.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sessao.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cliente/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding />
         </state>
       </provider>

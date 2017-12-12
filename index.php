@@ -1,6 +1,6 @@
 <?php
 session_start();
-require_once 'conexao.php';
+require_once 'inc/conexao.php';
 ?>
 
 <!doctype html>
@@ -39,11 +39,9 @@ require_once 'conexao.php';
 <body>
 
 <?php
-    include 'conexao.php';
     include 'menu.php';
     include 'conteudo.php';
     include 'rodape.php';
-
 ?>
 
 

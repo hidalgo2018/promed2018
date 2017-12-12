@@ -18,12 +18,30 @@
                 </p>
             </div>
             <div class="col l4 offset-l2 s12">
-                <h5 class="white-text">Links</h5>
+                <h5 class="white-text">Links Rápidos</h5>
                 <ul>
-                    <li><a class="grey-text text-lighten-3" href="#!">Produtos</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Prêmios</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Sobre</a></li>
-                    <li><a class="grey-text text-lighten-3" href="#!">Contato</a></li>
+                    <?php
+                    if ($_SESSION['nivel'] == 0){
+                        ?>
+                        <li><a class="grey-text text-lighten-3" href="?link=20">Informações de Usuários</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Informações de Páginas</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Informações de Especialidades</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Informações de Convênio</a></li>
+
+                        <?php
+                    }
+                    else{
+                        if ($_SESSION['nivel']==1){
+                         ?>
+                            <li><a class="grey-text text-lighten-3" href="#!">Informações sobre pacientes</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Informações sobre especialidades</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Convênios</a></li>
+                            <li><a class="grey-text text-lighten-3" href="#!">Agenda</a></li>
+
+                         <?php
+                        }
+                    }
+                    ?>
                 </ul>
             </div>
         </div>

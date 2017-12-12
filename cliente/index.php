@@ -1,6 +1,7 @@
 <?php
-include '../conexao.php';
 session_start();
+include '../inc/conexao.php';
+
 if($_SESSION['nivel']==0){
 
 }
