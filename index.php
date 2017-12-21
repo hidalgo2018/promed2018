@@ -1,98 +1,62 @@
 <?php
-session_start();
-require_once 'inc/conexao.php';
+/**
+ * Created by PhpStorm.
+ * User: Arnaldo Martins Hidalgo Junior
+ * Date: 21/12/2017
+ * Objetivo: Criação do Site Principal da Promed Saude
+ */
 ?>
 
 <!doctype html>
 <html lang="pt-br">
 <head>
-    <meta charset="utf-8"/>
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <title>ProMed Saúde Ocupacional</title>
-    <link rel="stylesheet" href="css/materialize.css"/>
-    <script type="text/javascript" language="javascript">
-        function validar() {
-            var nome = usuario.nome.value;
-            var email = usuario.correio.value;
-            var senha = usuario.senha.value;
-            var senha2 = usuario.senha2.value;
+    <link href="https://fonts.googleapis.com/css?family=Allura|Bellefair|Bilbo|Cinzel+Decorative|Exo|Fredericka+the+Great|Great+Vibes|IM+Fell+DW+Pica|Julius+Sans+One|Lovers+Quarrel|Meddon|Mrs+Saint+Delafield|Raleway|Ruthie|Sail|UnifrakturCook:700"
+          rel="stylesheet">
+    <link rel="stylesheet" href="css/materialize.css">
+    <title>Promed - Marília - Site em Desenvolvimento</title>
 
-            if (nome == "") {
-                alert('Informe o nome completo');
-                usuario.nome.focus();
-                return false;
-            }
-            else {
-                if (senha != senha2) {
-                    alert('As senhas devem ser iguais');
-                    usuario.senha.focus();
-                    return false;
-                }
-            }
+    <!--
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Exo', sans-serif;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Bellefair', serif;
+    font-family: 'Julius Sans One', sans-serif;
+    font-family: 'Allura', cursive;
+    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Meddon', cursive;
+    font-family: 'IM Fell DW Pica', serif;
+    font-family: 'UnifrakturCook', cursive;
+    font-family: 'Sail', cursive;
+    font-family: 'Ruthie', cursive;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-family: 'Lovers Quarrel', cursive;
+    font-family: 'Bilbo', cursive;
+    -->
 
-        }
-    </script>
+
+
 </head>
 <body>
 
-<?php
-include 'menu.php';
-include 'conteudo.php';
-include 'rodape.php';
-?>
+<div class="container-fluid">
+    <?php file_exists('menu.php' ? include 'menu.php' : include 'erro.php'); ?>
 
+    <?php file_exists('pagina.php' ? include 'pagina.php' : include 'erro.php'); ?>
 
-<script src="js/jquery.js"></script>
-<script src="js/what-input.js"></script>
-<script src="js/jquery.maskedinput.js"></script>
-<script src="js/materialize.min.js"></script>
-<script>
-    $(".button-collapse").sideNav();
-    jQuery(function ($) {
-        $("#date").mask("99/99/9999", {placeholder: "mm/dd/yyyy"});
-        $("#fone").mask("(99) 99999-9999");
-        $("#tin").mask("99-9999999");
-        $("#ssn").mask("999-99-9999");
-        $("#cep").mask("99999-999");
-    });
-    var datePickerPtBr = {
-        selectMonths: true,
-        selectYears: 200,
-        labelMonthNext: 'Próximo mês',
-        labelMonthPrev: 'Último mês',
-        labelMonthSelect: 'Selecione o mês',
-        labelYearSelect: 'Selecione o ano',
-        monthsFull: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
-        monthsShort: ['Jan', 'Fev', 'Mar', 'Abr', 'Mai', 'Jun', 'Jul', 'Ago', 'Set', 'Out', 'Nov', 'Dez'],
-        weekdaysFull: ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'],
-        weekdaysShort: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sab'],
-        weekdaysLetter: ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'],
-        today: 'Hoje',
-        clear: 'Limpar',
-        close: 'Fechar',
-        format: 'dd/mm/yyyy'
-    };
+    <?php file_exists('rodape.php' ? include 'rodape.php' : include 'erro.php'); ?>
+</div>
 
-    $('.datepicker').pickadate(datePickerPtBr);
-
-</script>
-
-<!--Start of Tawk.to Script-->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
 <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-        s1.async=true;
-        s1.src='https://embed.tawk.to/5a39bba9f4461b0b4ef89b3d/default';
-        s1.charset='UTF-8';
-        s1.setAttribute('crossorigin','*');
-        s0.parentNode.insertBefore(s1,s0);
-    })();
+    $(".button-collapse").sideNav();
 </script>
-<!--End of Tawk.to Script-->
 
 </body>
 </html>
-
